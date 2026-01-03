@@ -1,0 +1,42 @@
+2026-01-03 14:31:37.021 [error] Error getting repo info: Failed to execute git
+2026-01-03 14:31:37.021 [error] Error: Failed to execute git
+	at t.Git._exec (/root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:34792)
+	at async t.Git.exec (/root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:33915)
+	at async t.GitProvider.executeGitCommandStable (/root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/cursor-retrieval/dist/main.js:2:1423402)
+	at async t.GitProvider.getRepoInfo (/root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/cursor-retrieval/dist/main.js:2:1399204)
+2026-01-03 14:31:37.021 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-01-03 14:31:37.021 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-01-03 14:31:37.213 [info] Using existing keys for an index
+2026-01-03 14:31:37.213 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-03 14:31:37.260 [info] Using existing keys for an index
+2026-01-03 14:31:37.260 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-03 14:31:37.342 [info] Starting RepoIndexWatcher for repo: 53e91d43-b070-4917-8984-d03e6de96951, owner: auth0|user_01K5V6723GZMMQGX745PVVEQWD
+2026-01-03 14:31:37.343 [error] We currently do not allow indexing the home directory.
+2026-01-03 14:31:37.343 [info] Indexing job successfully done or aborted.
+2026-01-03 14:31:37.550 [warning] Failed to get symbolic ref: Failed to execute git
+2026-01-03 14:31:37.550 [error] Error getting repo info: Failed to execute git
+2026-01-03 14:31:37.566 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-03 14:31:37.575 [error] Error getting repo info: Failed to execute git
+2026-01-03 14:31:37.579 [error] Error resolving repo info: Failed to execute git {
+  "exitCode": 1,
+  "gitCommand": "config",
+  "stdout": "",
+  "stderr": ""
+}
+2026-01-03 14:31:37.633 [warning] Failed to get default branch from git config: Failed to execute git
+2026-01-03 14:31:42.858 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-03 14:31:42.860 [error] Error getting repo info: Failed to execute git
+2026-01-03 14:31:42.865 [error] Error resolving repo info: Failed to execute git {
+  "exitCode": 1,
+  "gitCommand": "config",
+  "stdout": "",
+  "stderr": ""
+}
+2026-01-03 14:32:03.364 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-03 14:32:03.366 [error] Error getting repo info: Failed to execute git
+2026-01-03 14:32:03.371 [error] Error resolving repo info: Failed to execute git {
+  "exitCode": 1,
+  "gitCommand": "config",
+  "stdout": "",
+  "stderr": ""
+}

@@ -370,3 +370,34 @@ Use '--' to separate paths from revisions, like this:
 2026-01-03 14:14:07.696 [warning] [Git][getBranch] No such branch: main
 2026-01-03 14:14:07.730 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
 2026-01-03 14:14:09.303 [info] > git status -z -uall [1582ms]
+2026-01-03 14:14:14.743 [info] [Git][getRemotes] No remotes found in the git config file
+2026-01-03 14:14:14.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-01-03 14:14:14.758 [info] > git config --get commit.template [104ms]
+2026-01-03 14:14:14.794 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2026-01-03 14:14:18.601 [info] > git status -z -uall [3799ms]
+2026-01-03 14:14:19.031 [info] > git rev-parse --abbrev-ref HEAD [16ms]
+2026-01-03 14:14:19.047 [info] > git log --skip=0 --max-count=1 --format=%H [40ms]
+2026-01-03 14:14:19.090 [info] > git remote get-url --push origin [10ms]
+2026-01-03 14:14:19.090 [info] error: No such remote 'origin'
+2026-01-03 14:14:19.656 [info] > git config --get remote.origin.url [83ms]
+2026-01-03 14:14:19.679 [info] > git rev-parse --show-toplevel [24ms]
+2026-01-03 14:14:19.679 [info] > git ls-files --stage -- Loki+Grafana/README.md [114ms]
+2026-01-03 14:14:19.694 [info] > git check-ignore -v -z --stdin [46ms]
+2026-01-03 14:14:19.746 [info] > git cat-file -s 014ecabccc0c65fdced4811db4b33723a17ea251 [59ms]
+2026-01-03 14:14:19.765 [info] > git show --textconv :Loki+Grafana/README.md [208ms]
+2026-01-03 14:14:23.480 [info] > git --no-optional-locks status [4487ms]
+2026-01-03 14:14:24.038 [info] [Git][getRemotes] No remotes found in the git config file
+2026-01-03 14:14:24.040 [info] > git config --get commit.template [7ms]
+2026-01-03 14:14:24.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-01-03 14:14:24.124 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [42ms]
+2026-01-03 14:14:24.965 [info] > git show -m -s --format=%H<|ENT|><|RY|>%an<|ENT|><|RY|>%ad<|ENT|><|RY|>%B 58cab1b3926748d9a7e564fc9a47a8ee76ee7c3d [5288ms]
+2026-01-03 14:14:26.955 [info] > git -c diff.autoRefreshIndex=false diff --no-color [1761ms]
+2026-01-03 14:14:29.541 [info] > git status -z -uall [5460ms]
+2026-01-03 14:14:29.914 [info] > git ls-files --others --exclude-standard [4683ms]
+2026-01-03 14:14:30.490 [info] > git rev-parse --abbrev-ref HEAD [159ms]
+2026-01-03 14:14:30.534 [info] > git log --skip=0 --max-count=1 --format=%H [216ms]
+2026-01-03 14:14:30.562 [info] > git log --skip=0 --max-count=1 --format=%H [250ms]
+2026-01-03 14:14:30.609 [info] > git remote get-url --push origin [38ms]
+2026-01-03 14:14:30.609 [info] error: No such remote 'origin'
+2026-01-03 14:14:30.898 [info] > git remote get-url --push origin [321ms]
+2026-01-03 14:14:30.898 [info] error: No such remote 'origin'

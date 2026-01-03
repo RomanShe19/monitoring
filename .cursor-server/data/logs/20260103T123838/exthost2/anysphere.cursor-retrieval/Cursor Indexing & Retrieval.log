@@ -95,3 +95,12 @@
 2026-01-03 14:12:17.198 [info] Aborting indexing job.
 2026-01-03 14:12:17.198 [error] We currently do not allow indexing the home directory.
 2026-01-03 14:12:17.198 [info] Indexing job successfully done or aborted.
+2026-01-03 14:14:19.573 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-03 14:14:19.667 [error] Error getting repo info: Failed to execute git
+2026-01-03 14:14:19.677 [error] Error resolving repo info: Failed to execute git {
+  "exitCode": 1,
+  "gitCommand": "config",
+  "stdout": "",
+  "stderr": ""
+}
+2026-01-03 14:14:25.302 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/root/.gitmodules')
