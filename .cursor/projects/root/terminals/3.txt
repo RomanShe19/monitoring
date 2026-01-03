@@ -1,0 +1,16 @@
+---
+pid: 19575
+cwd: /root
+active_command: |
+  git initgit add .git commit -m "Initial commit: Loki + Grafana + provisioning"
+last_command: ls
+last_exit_code: 0
+---
+root@cv5743409:~# cd /root/Loki
+bash: cd: /root/Loki: No such file or directory
+root@cv5743409:~# ls
+Loki+Grafana
+root@cv5743409:~# git init
+git add .
+git commit -m "Initial commit: Loki + Grafana + provisioning"
+Reinitialized existing Git repository in /root/.git/

@@ -1,0 +1,41 @@
+2026-01-03 12:38:38.261 [info] 
+
+
+
+
+2026-01-03 12:38:38.273 [info] [CursorProclistService] Native module loaded successfully
+2026-01-03 12:38:38.274 [info] Extension host agent started.
+2026-01-03 12:38:38.293 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.cursor-server/extensions
+2026-01-03 12:38:38.443 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.cursor-server/extensions
+2026-01-03 12:38:38.752 [info] [127.0.0.1][3c2cd93a][ManagementConnection] New connection established.
+2026-01-03 12:38:38.754 [info] [127.0.0.1][2b74e615][ExtensionHostConnection] New connection established.
+2026-01-03 12:38:38.790 [info] Getting extensions control
+2026-01-03 12:38:38.799 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-03 12:38:39.002 [info] [127.0.0.1][2b74e615][ExtensionHostConnection] <1369> Launched Extension Host Process.
+2026-01-03 12:39:54.366 [info] [127.0.0.1][3c2cd93a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-01-03 12:39:54.418 [info] [127.0.0.1][2b74e615][ExtensionHostConnection] <1369> Extension Host Process exited with code: 0, signal: null.
+2026-01-03 12:39:54.418 [info] Cancelling previous shutdown timeout
+2026-01-03 12:39:54.418 [info] Last EH closed, waiting before shutting down
+2026-01-03 12:40:03.654 [info] [127.0.0.1][6b64370d][ManagementConnection] New connection established.
+2026-01-03 12:40:03.699 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-03 12:40:03.713 [info] [127.0.0.1][0b608dfd][ExtensionHostConnection] New connection established.
+2026-01-03 12:40:03.721 [info] [127.0.0.1][0b608dfd][ExtensionHostConnection] <1885> Launched Extension Host Process.
+2026-01-03 12:44:54.493 [info] New EH opened, aborting shutdown
+2026-01-03 12:45:03.741 [info] [CursorProclistService] Sample 0 created: 29 processes, 32 subsamples
+2026-01-03 12:50:03.737 [info] [CursorProclistService] Sample 1 created: 4 processes, 31 subsamples
+2026-01-03 12:55:03.735 [info] [CursorProclistService] Sample 2 created: 7 processes, 30 subsamples
+2026-01-03 13:00:03.741 [info] [CursorProclistService] Sample 3 created: 17 processes, 31 subsamples
+2026-01-03 13:05:03.741 [info] [CursorProclistService] Sample 4 created: 14 processes, 31 subsamples
+2026-01-03 13:10:03.750 [info] [CursorProclistService] Sample 5 created: 10 processes, 31 subsamples
+2026-01-03 13:15:03.753 [info] [CursorProclistService] Sample 6 created: 10 processes, 31 subsamples
+2026-01-03 13:20:03.753 [info] [CursorProclistService] Sample 7 created: 7 processes, 31 subsamples
+2026-01-03 13:25:03.760 [info] [CursorProclistService] Sample 8 created: 11 processes, 31 subsamples
+2026-01-03 13:30:03.763 [info] [CursorProclistService] Sample 9 created: 11 processes, 31 subsamples
+2026-01-03 13:35:03.861 [info] [CursorProclistService] Sample 10 created: 8 processes, 32 subsamples
+2026-01-03 13:40:03.778 [info] [CursorProclistService] Sample 11 created: 11 processes, 30 subsamples
+2026-01-03 13:45:03.766 [info] [CursorProclistService] Sample 12 created: 11 processes, 31 subsamples
+2026-01-03 13:50:03.766 [info] [CursorProclistService] Sample 13 created: 8 processes, 31 subsamples
+2026-01-03 13:55:03.830 [info] [CursorProclistService] Sample 14 created: 9 processes, 31 subsamples
+2026-01-03 14:00:03.764 [info] [CursorProclistService] Sample 15 created: 11 processes, 31 subsamples
+2026-01-03 14:05:03.809 [info] [CursorProclistService] Sample 16 created: 23 processes, 31 subsamples
+2026-01-03 14:10:03.772 [info] [CursorProclistService] Sample 17 created: 8 processes, 31 subsamples

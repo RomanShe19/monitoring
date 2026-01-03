@@ -1,0 +1,31 @@
+2026-01-03 12:38:41.925 [info] Extension host with pid 1369 started
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] dirname: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] Linux sandbox helper path: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] process.resourcesPath: undefined
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] process.execPath: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/node
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] ripgrep path for sandboxing: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/node_modules/@vscode/ripgrep/bin/rg
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary found at: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Running preflight with binary: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] CWD: /root undefined
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Preflight failed: Command failed: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox --sandbox-policy-cwd /root --sandbox-policy {"type":"workspace_readwrite","cwd":"/root","additional_readwrite_paths":[],"additional_readonly_paths":[],"network_access":false,"disable_tmp_write":false,"block_git_writes":false} --preflight-only -- /bin/true undefined
+2026-01-03 12:38:41.925 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Exit status: 1 undefined
+2026-01-03 12:38:41.925 [info] [ExtHostShellExec] Sandbox support detected: false
+2026-01-03 12:38:42.098 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-03 12:38:42.584 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2026-01-03 12:38:42.584 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-03 12:38:43.653 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2026-01-03 12:38:44.147 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-03 12:38:44.147 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-03 12:38:44.904 [info] Eager extensions activated
+2026-01-03 12:38:44.904 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:38:44.904 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:38:44.905 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:38:44.905 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:38:44.905 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:39:54.371 [info] Extension host terminating: received terminate message from renderer
+2026-01-03 12:39:54.394 [info] Extension host with pid 1369 exiting with code 0

@@ -1,0 +1,66 @@
+2026-01-03 12:40:08.088 [info] Extension host with pid 1885 started
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] dirname: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] Linux sandbox helper path: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] process.resourcesPath: undefined
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] process.execPath: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/node
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] ripgrep path for sandboxing: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/node_modules/@vscode/ripgrep/bin/rg
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary found at: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Running preflight with binary: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] CWD: /root undefined
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Preflight failed: Command failed: /root/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox --sandbox-policy-cwd /root --sandbox-policy {"type":"workspace_readwrite","cwd":"/root","additional_readwrite_paths":[],"additional_readonly_paths":[],"network_access":false,"disable_tmp_write":false,"block_git_writes":false} --preflight-only -- /bin/true undefined
+2026-01-03 12:40:08.088 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Exit status: 1 undefined
+2026-01-03 12:40:08.088 [info] [ExtHostShellExec] Sandbox support detected: false
+2026-01-03 12:40:08.107 [info] Lock '/root/.cursor-server/data/User/workspaceStorage/ba1fb1313fd94c067064b6116c9b0105/vscode.lock': Lock acquired.
+2026-01-03 12:40:08.236 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2026-01-03 12:40:08.240 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-01-03 12:40:08.242 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-03 12:40:09.190 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-01-03 12:40:09.191 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-01-03 12:40:09.431 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2026-01-03 12:40:10.195 [info] Eager extensions activated
+2026-01-03 12:40:10.196 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:40:10.196 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:40:10.196 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:40:10.197 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 12:40:10.197 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-03 13:01:08.457 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-01-03 13:20:17.866 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-01-03 13:20:17.867 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-01-03 13:21:16.104 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-01-03 14:11:29.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:11:31.710 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:11:37.853 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:11:43.093 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:11:48.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:11:54.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:00.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:06.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:12.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:18.221 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:24.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:29.931 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:35.177 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:40.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:46.258 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:51.488 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:12:56.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:13:02.064 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:13:07.303 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:13:13.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:13:19.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:13:25.082 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5387
+2026-01-03 14:13:29.671 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-01-03 14:13:30.776 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5388
+2026-01-03 14:13:35.021 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-03 14:13:35.022 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-01-03 14:13:36.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5389
+2026-01-03 14:13:42.919 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5389
+2026-01-03 14:13:48.787 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5389
+2026-01-03 14:13:54.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5389
+2026-01-03 14:14:02.223 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5389
+2026-01-03 14:14:09.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5389
